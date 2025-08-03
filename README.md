@@ -39,7 +39,9 @@ datasets download genome accession GCF_019359855.2 --include gff3,rna,cds,protei
 ## Python script "inSilicoPCR_multi.py" to search amplicons in the references genomes using a list of primer pairs
 
 python inSilicoPCR_multi.py --fasta GCF_019359855.2_Kyuss_2.0_genomic.fna --primers primer_pairs.csv --outfasta perenne_amplicons.fasta --outtable perenne_amplicons.tsv
+
 python inSilicoPCR_multi.py --fasta GCF_022539505.1_APGP_CSIRO_Lrig_0.1_genomic.fna --primers primer_pairs.csv --outfasta rigidum_amplicons.fasta --outtable rigidum_amplicons.tsv
+
 python inSilicoPCR_multi.py --fasta GCA_030979885.1_Rabiosa_unphased_assembly_genomic.fna --primers primer_pairs.csv --outfasta multiflorum_amplicons.fasta --outtable multiflorum_amplicons.tsv
 
 
