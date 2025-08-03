@@ -33,7 +33,9 @@ conda install -c bioconda mummer
 ## Dowload the reference genome using "datasets" function
 
 datasets download genome accession GCF_022539505.1 --include gff3,rna,cds,protein,genome,seq-report	# rigidum
+
 datasets download genome accession GCA_030979885.1 --include gff3,rna,cds,protein,genome,seq-report	# multiflorum
+
 datasets download genome accession GCF_019359855.2 --include gff3,rna,cds,protein,genome,seq-report	# perenne
 
 ## Python script "inSilicoPCR_multi.py" to search amplicons in the references genomes using a list of primer pairs
