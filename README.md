@@ -1,8 +1,8 @@
 ##############################################
-#### InSilico development steps of primers
+# InSilico development steps of primers
 ##############################################
 
-# Tools required 
+## Tools required 
 
 - miniconda (for instalation of relevant modules)
 - ncbi-datasets-cli (to download reference genomes)
