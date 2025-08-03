@@ -16,18 +16,18 @@
 
 ## Installation of the required modules
 
-sudo apt install miniconda
-conda install -y -c bioconda blast
-conda install -c bioconda blast
-conda install -c bioconda blast
-sudo apt install unzip
-pip install biopython
-conda install -y -c bioconda blast
-conda install -y -c conda-forge biopython pandas tqdm
-conda install -c conda-forge ncbi-datasets-cli
-conda install -c bioconda mafft
-conda install -c bioconda clustalo
-conda install -c bioconda mummer
+sudo apt install miniconda  
+conda install -y -c bioconda blast  
+conda install -c bioconda blast  
+conda install -c bioconda blast  
+sudo apt install unzip  
+pip install biopython  
+conda install -y -c bioconda blast  
+conda install -y -c conda-forge biopython pandas tqdm  
+conda install -c conda-forge ncbi-datasets-cli  
+conda install -c bioconda mafft  
+conda install -c bioconda clustalo  
+conda install -c bioconda mummer  
 
 
 ## Dowload the reference genome using "datasets" function
